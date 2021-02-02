@@ -104,8 +104,30 @@ const MenuMiddle = styled.nav`
     } 
     .link:hover:after{
         opacity: 1;
+    } 
+`
+
+const Social = styled.ul`
+    position: relative;
+    bottom: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 20px;
+
+    li a {
+    padding: 7px 0;
+    display: block;
+    font-size: 15px;
+    line-height: 16px;
+    color: #909096;
     }
-    
+
+    li a:hover {
+        color:#46bcec;
+    }
 `
 
 const MenuBottom = styled.div`
@@ -153,7 +175,15 @@ export default function SideBar() {
                     <NavLink className="link portfolio" to="/portfolio"><i className="icon-eye"></i></NavLink>
                     <NavLink className="link contact" to="/contact"><i className="icon-mail"></i></NavLink>
                 </MenuMiddle>
-                <MenuBottom />
+                <MenuBottom>
+                    <Social>
+                        <li><a rel="noreferrer" href="https://www.linkedin.com/in/eltton/" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                        <li><a rel="noreferrer" href="https://github.com/eltton/" target="_blank"><i className="fa fa-github"></i></a></li>
+                        {/* <li><a rel="noreferrer" href=" " target="_blank"><i className="fa fa-twitter"></i></a></li> */}
+                        {/* <li><a rel="noreferrer" href=" " target="_blank"><i className="fa fa-facebook"></i></a></li> */}
+                        <li><a rel="noreferrer" href="https://www.instagram.com/eltonfx/" target="_blank"><i className="fa fa-instagram"></i></a></li>
+                    </Social>
+                </MenuBottom>
             </Menu>
             <Switch>
                 {routes.map((route, index) => (

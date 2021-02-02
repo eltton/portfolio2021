@@ -1,6 +1,9 @@
 import styled, { createGlobalStyle } from 'styled-components'
 import SideBar from './components/SideBar'
 
+
+
+
 const GlobalStyle = createGlobalStyle`
   body, html {
     margin: 0;
@@ -13,6 +16,8 @@ const GlobalStyle = createGlobalStyle`
   #root {
     height: 100%; /* Fixed div#root height 100% */
   }
+
+  
 `
 
 const Page = styled.div`
