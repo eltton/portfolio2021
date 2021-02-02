@@ -32,7 +32,7 @@ const Page = styled.div`
 
 const Typing = styled.h1`
     color: #909096;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
     /* margin-bottom:0; */
     /* margin-left: -15px; */
     font-size: 1.3rem;
@@ -42,7 +42,7 @@ const Typing = styled.h1`
 
 const Developer = styled.p`
     color: #46bcec;
-    font-family: 'Press Start 2P';
+    font-family: 'Press Start 2P', cursive;
     margin-top: 75px;
     margin-left: 22px;
     /* -webkit-animation: myanim2 1s 2s backwards; */
