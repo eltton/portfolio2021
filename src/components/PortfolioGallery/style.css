@@ -70,31 +70,6 @@
 }
 
 
-.flat-button {    
-  position: absolute;
-  display: block;
-  /* float: right; */
-  margin-left: 55px;
-  font-size: 10px;
-  /* letter-spacing: 4px; */
-  font-family: "Open Sans", sans-serif;
-  /* text-decoration: none; */
-  border: 1px solid #46bcec;
-  /* -webkit-animation: myanim2 1s 4s backwards; */
-  /* animation: myanim2 1s 1.5s backwards; */
-  /* user-select: none;     */
-  
-  
-}
-
-/* p{
-  position: absolute;
-  border: 5px solid pink;
-  margin-top: 55px;
-  margin-left: 55px;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 13px;
-} */
 
 .visit-button{
   position: absolute;
@@ -103,12 +78,14 @@
   font-size: 13px;
   letter-spacing: 4px;
   font-family: "Open Sans", sans-serif;
+  /* font-family: 'Press Start 2P'; */
   text-decoration: none;
   padding: 10px 18px;
   border: 1px solid #46bcec;
   margin-top: 150px;
   /* width: 155px; */
-  user-select: none;   
+  user-select: none; 
+  /* text-transform: uppercase;   */
 }
 
 .skill{
