@@ -1,6 +1,6 @@
 import PortfolioGallery from '../../components/PortfolioGallery'
 import styled from 'styled-components'
-import { SliderData } from '../../components/PortfolioGallery/SliderData';
+import { SliderData } from '../../components/PortfolioGallery/jobsData';
 
 const Page = styled.div`
     display: relative;

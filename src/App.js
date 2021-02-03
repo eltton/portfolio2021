@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     /* border: solid 1px black; */
     height: 100%;
+    background: #1d1d1d;
   }
 
   #root {

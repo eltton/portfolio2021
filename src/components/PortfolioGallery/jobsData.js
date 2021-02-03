@@ -5,11 +5,11 @@ export const SliderData = [
     {
         image: job1,
         link: 'https://leticiahortencio.com.br/',
-        skill: 'WordPress HTML5 CSS3' 
+        skill: 'HTML5 CSS3 JAVASCRIPT WORDPRESS' 
     },
     {
         image: job2,
         link: '/',
-        skill: 'React HTML5 CSS3'
+        skill: 'REACT HTML5 CSS3'
     }
 ];
