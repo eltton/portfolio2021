@@ -10,17 +10,20 @@
   overflow: hidden;
   /* padding: 100px; */
   text-align: center;
+  
+  
 
 
 }
 
 .image {
   position: relative;
-  width: 70%;
-  /* height: 80%; */
+  width: 80%;
+  height: 100%;
   border-radius: 10px;
   /* box-shadow: 5px 5px 5px 1px #46bcec; */
   box-shadow: 0 0 1em #46bcec;
+  
   
 
   
@@ -29,7 +32,7 @@
 
 .right-arrow {
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   right: 32px;
   font-size: 3rem;
   color: #a5a5a5;
@@ -40,7 +43,7 @@
 
 .left-arrow {
   position: absolute;
-  top: 50%;
+  bottom: 10%;
   left: 32px;
   font-size: 3rem;
   color: #a5a5a5;
@@ -57,6 +60,7 @@
 .slide {
   opacity: 0;
   transition-duration: 1s ease;
+  
 }
 
 .slide.active {
@@ -65,10 +69,52 @@
   transform: scale(1.08);
 }
 
+
 .flat-button {    
-  border: solid 1px #46bcec;
-  align-self: center;
-  margin-top: 35px;
+  position: absolute;
+  display: block;
+  /* float: right; */
+  margin-left: 55px;
+  font-size: 10px;
+  /* letter-spacing: 4px; */
+  font-family: "Open Sans", sans-serif;
+  /* text-decoration: none; */
+  border: 1px solid #46bcec;
+  /* -webkit-animation: myanim2 1s 4s backwards; */
+  /* animation: myanim2 1s 1.5s backwards; */
+  /* user-select: none;     */
   
   
+}
+
+/* p{
+  position: absolute;
+  border: 5px solid pink;
+  margin-top: 55px;
+  margin-left: 55px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13px;
+} */
+
+.visit-button{
+  position: absolute;
+  bottom: 10%;
+  color:#46bcec;
+  font-size: 13px;
+  letter-spacing: 4px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 1px solid #46bcec;
+  margin-top: 150px;
+  /* width: 155px; */
+  user-select: none;   
+}
+
+.skill{
+  position: absolute;
+  /* border: 5px solid pink; */
+  bottom: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
 }

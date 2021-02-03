@@ -17,25 +17,33 @@ const ImageSlider = ({ slides }) => {
 
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null;
-    }
+    };
+
+
+
+
 
     return (
         <section className='slider'>
             <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
             <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
+            {/* BUTTON */}
+            {SliderData.map((slide, index) => {
+                return (index === current && (<a className='visit-button' key={index} href={slide.link}>Visit</a>))
+                })}
+            
+            {/* SKILL */}
+            {SliderData.map((slide, index) => {
+                return (index === current && (<p key={index} className="skill">{slide.skill}</p>))
+                })}
+            {/* IMAGE */}
             {SliderData.map((slide, index) => {
                 return (
                     <div
                         className={index === current ? 'slide active' : 'slide'}
                         key={index}
                     >
-                        {index === current && (
-
-                            <a href={slide.link}> <img src={slide.image} alt="slide" className='image' />
-                                <div className='flat-button'>Visit</div></a>
-                                
-
-                        )}
+                        {index === current && (<img src={slide.image} alt="slide" className='image' />)}
 
                     </div>
 
