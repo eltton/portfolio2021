@@ -4,11 +4,15 @@ import FormContact from '../../components/FormContact'
 
 const Page = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
     width: 100%;
     height: 100%;
     background-color: #333333;
+
+    @media screen and (max-width:800px){
+        flex-direction: column;      
+    }  
 `
 const InfoMap = styled.div`
     position: absolute;

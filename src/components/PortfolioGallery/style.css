@@ -6,29 +6,25 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: solid 5px green; */
   overflow: hidden;
-  /* padding: 100px; */
   text-align: center;
-  
-  
-
-
 }
 
 .image {
   position: relative;
-  width: 80%;
+  width: 70%;
   height: 100%;
   border-radius: 10px;
-  /* box-shadow: 5px 5px 5px 1px #46bcec; */
-  box-shadow: 0 0 1em #46bcec;
-  
-  
-
-  
-  
+  box-shadow: 0 0 1em #46bcec;  
+  bottom: 10%;
+  margin-top: 15px;
 }
+
+/* @media screen and (max-height:780px){
+  .image{
+    width: 50%;
+  }       
+}  */
 
 .right-arrow {
   position: absolute;
@@ -59,8 +55,7 @@
 
 .slide {
   opacity: 0;
-  transition-duration: 1s ease;
-  
+  transition-duration: 1s ease;  
 }
 
 .slide.active {
@@ -69,8 +64,6 @@
   transform: scale(1.08);
 }
 
-
-
 .visit-button{
   position: absolute;
   bottom: 10%;
@@ -78,20 +71,20 @@
   font-size: 13px;
   letter-spacing: 4px;
   font-family: "Open Sans", sans-serif;
-  /* font-family: 'Press Start 2P'; */
   text-decoration: none;
   padding: 10px 18px;
   border: 1px solid #46bcec;
   margin-top: 150px;
-  /* width: 155px; */
   user-select: none; 
-  /* text-transform: uppercase;   */
+  z-index: 999;
+  box-shadow: 0 0 1em #46bcec;
 }
 
 .skill{
   position: absolute;
-  /* border: 5px solid pink; */
   bottom: 0;
   font-family: 'Press Start 2P', cursive;
   font-size: 10px;
+  color: #46bcec;
+  z-index: 999;
 }

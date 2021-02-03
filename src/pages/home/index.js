@@ -26,8 +26,7 @@ const Page = styled.div`
         width: 155px;
         margin-left: 22px;
         user-select: none;    
-}
-
+    }
 `
 
 const Typing = styled.h1`

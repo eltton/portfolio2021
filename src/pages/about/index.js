@@ -13,6 +13,27 @@ const Me = styled.img`
     right: 0;
     width: 300px;
     filter:drop-shadow(8px 8px 10px #46bcec) grayscale(70%);
+
+    @media screen and (max-width:670px){
+        width: 200px;
+    }   
+
+    @media screen and (max-width:425px){
+        width: 200px;
+    }   
+
+    @media screen and (max-width:375px){
+        width: 130px;
+    }   
+    @media screen and (max-width:320px){
+        width: 110px;
+    }
+    @media screen and (max-height:900px){
+        width: 200px;
+    }
+    @media screen and (max-height:700px){
+        width: 120px;
+    }
 `
 
 const About = styled.div`
@@ -22,29 +43,29 @@ const About = styled.div`
     color: #46bcec;
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
-    margin-left: 20px;
-    
-    
-    
+    margin-left: 20px;    
 
-
+    @media screen and (max-width:425px){
+        font-size: 14px;
+    } 
+    @media screen and (max-width:414px){
+        font-size: 13px;
+    }
+    @media screen and (max-width:320px){
+        font-size: 11px;
+    }
 `
 
 const Typing = styled.h1`
-    /* position: absolute; */
     color: #909096;
     font-family: 'Press Start 2P', cursive;
-    /* margin-bottom:0; */
-    /* margin-left: -15px; */
     font-size: 1.5rem;
-    user-select: none;
-    
+    user-select: none;     
 `
 
 const Br = styled.img`
     width: 25px;
     margin-left: 20px;
-
 `
 
 export default function about() {
@@ -60,19 +81,15 @@ export default function about() {
             </Typing>
             <About>
                 Olá, me chamo Elton Pereira! <br /><br />
-                Sou Bacharel em Ciência da Computação desde 2013,<br />
-                tendo atuado como programador freelancer durante 1 ano, desde então<br />
+                Sou Bacharel em Ciência da Computação desde 2015,<br />
+                atuei como programador freelancer durante 1 ano, e desde então,<br />
                 venho trabalhando como Trader, atuando nos mercados de Forex, Criptomoedas, Commodities, Futuros e opções!<br />
-                em paralelo desenvolvendo Robôs e indicadores para o mercado financeiro,<br />
-                recentemente venho me atualizando sobre todas as tecnologias modernas para desenvolvendo web.<br /> <br />
+                Em paralelo, venho desenvolvendo Robôs e indicadores para o mercado financeiro.<br />
+                Recentemente, venho me atualizando sobre as principais tecnologias para desenvolvimento web.<br /> <br />
 
-                Procuro oportunidades de trabalho como Web Developer para continuar desenvolvendo minhas habilidades como DEV!<br />
-                Tenho prefrencia em empresas e startups com projetos ligados ao setor financeiro e banking!<br />
-                Aberto a propostas, inclusive Freelancer!<br />
-                
-
-
-
+                Procuro oportunidades de trabalho como Web Developer, para continuar desenvolvendo minhas habilidades como DEV!<br />
+                Tenho preferência em empresas e startups, com projetos ligados ao setor financeiro e banking!<br />
+                Estou aberto a propostas, inclusive Freelancer!<br />
             </About>
             <Me alt="me" src={me} />
         </Page>

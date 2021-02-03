@@ -1,5 +1,5 @@
-import job1 from '../../assets/lh1.png'
-import job2 from '../../assets/ep1.png'
+import job1 from '../../assets/leticiahortencio.png'
+import job2 from '../../assets/eltonpereira.png'
 
 export const SliderData = [
     {

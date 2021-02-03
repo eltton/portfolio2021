@@ -19,10 +19,6 @@ const ImageSlider = ({ slides }) => {
         return null;
     };
 
-
-
-
-
     return (
         <section className='slider'>
             <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
@@ -30,8 +26,7 @@ const ImageSlider = ({ slides }) => {
             {/* BUTTON */}
             {SliderData.map((slide, index) => {
                 return (index === current && (<a className='visit-button' key={index} href={slide.link}>Visit</a>))
-                })}
-            
+                })}            
             {/* SKILL */}
             {SliderData.map((slide, index) => {
                 return (index === current && (<p key={index} className="skill">{slide.skill}</p>))

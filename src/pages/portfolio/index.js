@@ -16,7 +16,6 @@ export default function portFolio() {
     return (
         <Page>
         <PortfolioGallery slides={SliderData}></PortfolioGallery>
-
         </Page>
     )
 }

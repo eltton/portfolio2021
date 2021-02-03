@@ -2,11 +2,20 @@ import { SkillData } from './skillData'
 import styled from 'styled-components'
 
 const Page = styled.div`    
-    margin: auto;
-    
+    margin: auto;    
     .skills{
         width: 100px;
         height: 100px;
+        
+        @media screen and (max-width:320px){
+            width: 60px;
+            height: 60px;        
+        }     
+
+        @media screen and (max-width:375px){
+            width: 60px;
+            height: 60px;        
+        }  
     }
 
     .box{
@@ -20,15 +29,12 @@ const Page = styled.div`
         font-family: 'Press Start 2P', cursive;
         font-size: 10px;
         margin-top: 5px;
-        margin-left: 5px;
-        
+        margin-left: 5px;        
     }   
 
     .skill-title{
         margin-top: 5px;
     }
-
-
 `
 
 

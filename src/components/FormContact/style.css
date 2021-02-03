@@ -62,9 +62,13 @@ form {
   
 }
 
-form, p {
+form{
   color: #46bcec;
+  box-shadow: 0 0 1em #46bcec;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
 
 button{
   width: 100px;
