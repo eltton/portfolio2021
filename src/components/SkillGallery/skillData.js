@@ -7,6 +7,7 @@ import node from '../../assets/node-js-brands.svg'
 import php from '../../assets/php-brands.svg'
 import wordpress from '../../assets/wordpress-brands.svg'
 import database from '../../assets/database-solid.svg'
+import git from '../../assets/git-alt-brands.svg'
 
 export const SkillData = [
     {
@@ -44,5 +45,9 @@ export const SkillData = [
     {
         image: database,
         name: 'MYSQL'
+    },
+    {
+        image: git,
+        name: 'GIT'
     }
 ];

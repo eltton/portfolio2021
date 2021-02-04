@@ -177,7 +177,8 @@ export default function SideBar() {
         <Router>
             <Menu>
                 <MenuTop>
-                    <Logo src={lg} alt='logo'/>
+                <NavLink to="/"><Logo src={lg} alt='logo'/></NavLink> 
+                    
                 </MenuTop>
 
                 <MenuMiddle>
