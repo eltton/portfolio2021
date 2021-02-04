@@ -15,6 +15,8 @@ import Portfolio from '../../pages/portfolio'
 import Contact from '../../pages/contact'
 import Notfound from '../../pages/404'
 
+import lg from '../../assets/logo.png'
+
 
 const Menu = styled.div`
     display: flex;
@@ -162,11 +164,21 @@ const routes = [
     }
 ];
 
+const Logo = styled.img`
+    /* border: 5px solid red; */
+    width: 100%;
+    height: 100%;
+    z-index:99999;
+
+`
+
 export default function SideBar() {
     return (
         <Router>
             <Menu>
-                <MenuTop />
+                <MenuTop>
+                    <Logo src={lg} alt='logo'/>
+                </MenuTop>
 
                 <MenuMiddle>
                     <NavLink className="link home" exact to="/"><i className="icon-home"></i></NavLink>

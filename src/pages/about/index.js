@@ -85,7 +85,7 @@ export default function about() {
                 atuei como programador freelancer durante 1 ano, e desde então,<br />
                 venho trabalhando como Trader, atuando nos mercados de Forex, Criptomoedas, Commodities, Futuros e opções!<br />
                 Em paralelo, venho desenvolvendo Robôs e indicadores para o mercado financeiro.<br />
-                Recentemente, venho me atualizando sobre as principais tecnologias para desenvolvimento web.<br /> <br />
+                Recentemente, venho me atualizando sobre as principais tecnologias para desenvolvimento web moderno.<br /> <br />
 
                 Procuro oportunidades de trabalho como Web Developer, para continuar desenvolvendo minhas habilidades como DEV!<br />
                 Tenho preferência em empresas e startups, com projetos ligados ao setor financeiro e banking!<br />
