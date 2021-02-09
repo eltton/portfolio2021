@@ -11,48 +11,28 @@ const Me = styled.img`
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 300px;
-    filter:drop-shadow(8px 8px 10px #46bcec) grayscale(70%);
+    width: 20%;
+    filter:drop-shadow(8px 8px 10px #46bcec) grayscale(70%);    
 
-    @media screen and (max-width:670px){
-        width: 200px;
-    }   
-
-    @media screen and (max-width:425px){
-        width: 200px;
-    }   
-
-    @media screen and (max-width:375px){
+    @media screen and (max-width:900px){
         width: 130px;
-    }   
-    @media screen and (max-width:320px){
-        width: 110px;
-    }
-    @media screen and (max-height:900px){
-        width: 200px;
-    }
-    @media screen and (max-height:700px){
-        width: 120px;
-    }
+    }  
 `
 
 const About = styled.div`
-    /* position: absolute; */
-    /* border: solid 1px red;     */
-    font-size: 20px;
+    font-size: 1.5em;
     color: #46bcec;
     font-family: "Open Sans",sans-serif;
     font-weight: 300;
-    margin-left: 20px;    
+    margin-left: 20px;   
+    overflow: hidden;
 
-    @media screen and (max-width:425px){
-        font-size: 14px;
-    } 
-    @media screen and (max-width:414px){
-        font-size: 13px;
-    }
-    @media screen and (max-width:320px){
-        font-size: 11px;
+    @media screen and (max-width:900px){
+        font-size: 1em;
+    }  
+
+    @media screen and (max-height:900px){
+        font-size: 0.8em;
     }
 `
 
