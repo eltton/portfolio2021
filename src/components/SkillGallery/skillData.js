@@ -8,6 +8,7 @@ import php from '../../assets/php-brands.svg'
 import wordpress from '../../assets/wordpress-brands.svg'
 import database from '../../assets/database-solid.svg'
 import git from '../../assets/git-alt-brands.svg'
+import ts1 from '../../assets/ts-logo-512.svg'
 
 export const SkillData = [
     {
@@ -49,5 +50,10 @@ export const SkillData = [
     {
         image: git,
         name: 'GIT'
+    },
+    {
+        image: ts1,
+        name: 'TypeScript'
     }
+
 ];
